@@ -1,0 +1,62 @@
+/* 
+    Document   : controlStyle
+    Created on : May 17, 2010, 2:24:36 PM
+    Author     : Irina
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.scene {
+    -fx-color: #241e14;
+}
+
+.buttonStyle {
+    -fx-text-fill: white;
+    -fx-font: 12pt "Tahoma Bold";
+    -fx-padding: 5;
+    -fx-background-radius: 5;
+    -fx-border-radius: 10;
+    -fx-background-color: linear (0%,0%) to (0%,100%)
+        stops (0%, #6362f8) (100%, #10117e);
+    -fx-border-color: rgb(0, 0, 102);
+    -fx-border-width: 1;
+}
+
+.buttonStyle:hover{
+    -fx-background-color: linear (0%,0%) to (0%,100%)
+        stops (0%, #10117e) (100%, #6362f8);
+}
+
+.buttonStyle1 {
+    -fx-font: 12pt "Tahoma";
+    -fx-text-fill: #000066;
+    -fx-padding: 2;
+    -fx-background-radius: 2;
+    -fx-border-radius: 2;
+    -fx-background-color: #d7d7d7;
+    -fx-border-color:  #000066;
+    -fx-border-width: 1;
+}
+
+.labelStyle{
+    -fx-font: 14pt "Tahoma Bold";
+    -fx-text-fill: #990000;
+
+}
+
+.labelStyle1{
+    -fx-padding: 2;
+    -fx-text-fill: white;
+    -fx-font: 12pt "Tahoma Bold";
+    -fx-background-color: #979db7;
+    
+}
+
+.labelStyle2{
+    -fx-padding: 2;
+    -fx-text-fill:  #000066;
+    -fx-font: 12pt "Tahoma Bold";
+    -fx-background-color: white;
+}
+
+

@@ -1,0 +1,45 @@
+#BlueJ class context
+comment0.params=a
+comment0.target=void\ quickSort(java.lang.Comparable[])
+comment0.text=\ \n\ Ordena\ el\ array\ a\ segun\ la\ estrategia\ Quick\ Sort\ (Hoare\ -1963-).\ \n\n\ @param\ a\ Sus\ elementos\ deben\ implementar\ la\ interfaz\ Comparable\n
+comment1.params=a\ izq\ der
+comment1.target=void\ quickSort(java.lang.Comparable[],\ int,\ int)
+comment1.text=\ \n\ Ordena\ el\ subarray\ a[izq\ ...der]\ segun\ la\ estrategia\ Quick\ Sort\ (Hoare\ -1963-).\n\ Utiliza\ el\ metodo\ de\ particion\ debido\ a\ Weiss,\ con\ Mediana\ de\ 3\ para\ el\ calculo\n\ del\ pivote.\n\ \ \n\ @param\ a\ Sus\ elementos\ entre\ izq\ y\ der\ deben\ implementar\ la\ interfaz\ Comparable\n\ @param\ izq\ indice\ del\ limite\ inferior\ a\ ser\ ordenado\n\ @param\ der\ indice\ del\ limite\ superior\ a\ ser\ ordenado\n
+comment10.params=a
+comment10.target=void\ insercionDirecta(java.lang.Comparable[])
+comment10.text=\ \n\ Ordena\ el\ array\ a\ segun\ la\ estrategia\ de\ Insercion\ Directa.\n\ \ \n\ @param\ a\ Sus\ elementos\ deben\ implementar\ la\ interfaz\ Comparable\n
+comment11.params=a\ ini\ fin
+comment11.target=void\ insercionDirecta(java.lang.Comparable[],\ int,\ int)
+comment11.text=\ \n\ Ordena\ los\ elementos\ del\ subarray\ a[ini\ ...\ fin]\ segun\ la\ estrategia\ de\ Insercion\ Directa.\n\ \n\ @param\ a\ Sus\ elementos\ entre\ izq\ y\ der\ deben\ implementar\ la\ interfaz\ Comparable\n\ @param\ izq\ indice\ del\ limite\ inferior\ a\ ser\ ordenado\n\ @param\ der\ indice\ del\ limite\ superior\ a\ ser\ ordenado\n
+comment12.params=a
+comment12.target=boolean\ estaOrdenado(java.lang.Comparable[])
+comment12.text=\ \nComprueba\ si\ el\ array\ a\ esta\ ordenado\ ascendentemente.\n\ \n\ @param\ a\ Sus\ elementos\ deben\ implementar\ la\ interfaz\ Comparable\n\ @return\ boolean,\ true\ si\ a\ esta\ ordenado\ ascendentemente\ y\ false\ en\ caso\ contrario\n
+comment13.params=a\ ini\ fin
+comment13.target=boolean\ estaOrdenado(java.lang.Comparable[],\ int,\ int)
+comment13.text=\ \n\ Comprueba\ si\ el\ subarray\ a[ini\ ...\ fin]\ esta\ esta\ ordenado\ ascendentemente.\ \n\ \n\ @param\ a\ Sus\ elementos\ deben\ implementar\ la\ interfaz\ Comparable\n\ @param\ ini\ indice\ del\ limite\ inferior\ a\ ser\ verificado\n\ @param\ fin\ indice\ del\ limite\ superior\ a\ ser\ verificado\n\ @return\ boolean,\ true\ si\ a[ini\ ...\ fin]\ esta\ ordenado\ ascendentemente\ y\ false\ en\ caso\ contrario\n
+comment14.params=a\ b
+comment14.target=boolean\ iguales(java.lang.Comparable[],\ java.lang.Comparable[])
+comment14.text=\ \n\ \ Comprueba\ si\ los\ arrays\ a\ y\ b\ son\ iguales\ elemento\ a\ elemento.\n\ \ \n\ \ @param\ a.\ Sus\ elementos\ deben\ implementar\ la\ interfaz\ Comparable\n\ \ @return\ boolean,\ true\ si\ a\ y\ b\ son\ iguales\ elemento\ a\ elemento\ y\ false\ en\ caso\ contrario\n
+comment2.params=a\ ind1\ ind2
+comment2.target=void\ intercambiar(java.lang.Object[],\ int,\ int)
+comment3.params=a\ izq\ der
+comment3.target=java.lang.Comparable\ mediana3(java.lang.Comparable[],\ int,\ int)
+comment4.params=v
+comment4.target=void\ mergeSort1(java.lang.Comparable[])
+comment4.text=\ \n\ Ordena\ el\ array\ v\ segun\ la\ estrategia\ Merge\ Sort.\ \n\n\ @param\ a\ Sus\ elementos\ deben\ implementar\ la\ interfaz\ Comparable\n
+comment5.params=v\ i\ f
+comment5.target=void\ mergeSort1(java.lang.Comparable[],\ int,\ int)
+comment5.text=\n\ Ordena\ el\ subarray\ v[i\ ...\ f]\ segun\ la\ estrategia\ Merge\ Sort.\n\ Utiliza\ el\ metodo\ de\ mezcla\ interna\ merge1\ para\ realizar\ la\ fusion\n\ natural\ de\ dos\ subarrays\ ordenados\ de\ un\ array\ v.\ \n\ \ \n\ @param\ v\ Sus\ elementos\ entre\ i\ y\ f\ deben\ implementar\ la\ interfaz\ Comparable\n\ @param\ i,\ extremo\ inferior\ del\ intervalo\ a\ ordenar,\n\ @param\ f,\ extremo\ superior\ del\ intervalo\ a\ ordenar.\n\ \n\ PRECONDICION\:\ i<\=f\n
+comment6.params=v\ i\ f\ m
+comment6.target=void\ merge1(java.lang.Comparable[],\ int,\ int,\ int)
+comment6.text=\n\ Mezcla\ los\ subarrays\ v[i\ ...\ m]\ y\ v[i+1\ ...\ f].\n\ \n\ @param\ v\ Sus\ elementos\ entre\ i\ y\ f\ deben\ implementar\ la\ interfaz\ Comparable\n\ @param\ i,\ extremo\ inferior\ del\ intervalo\ a\ mezclar\ ordenadamente,\n\ @param\ f,\ extremo\ superior\ del\ intervalo\ a\ mezclar\ ordenadamente.\n\n
+comment7.params=v
+comment7.target=void\ mergeSort2(java.lang.Comparable[])
+comment7.text=\ \n\ Ordena\ el\ array\ v\ segun\ la\ estrategia\ Merge\ Sort\ optimizada.\ \n\n\ @param\ v\ Sus\ elementos\ deben\ implementar\ la\ interfaz\ Comparable\n\ @return\ T[].\ Array\ resultante\n
+comment8.params=v\ i\ f
+comment8.target=java.lang.Comparable[]\ mergeSort2(java.lang.Comparable[],\ int,\ int)
+comment8.text=\n\ Devuelve\ un\ array\ con\ los\ elementos\ del\ subarray\ v[i\ ...\ f]\n\ ordenados\ segun\ la\ estrategia\ Merge\ Sort\ optimizada.\n\ Utiliza\ el\ metodo\ de\ mezcla\ interna\ merge2\ para\ realizar\ la\ \ \n\ fusion\ natural\ optimizada\ de\ dos\ subarrays\ ordenados\ de\ un\ array\ v.\n\ \n\ @param\ v\ Sus\ elementos\ entre\ i\ y\ f\ deben\ implementar\ la\ interfaz\ Comparable\n\ @param\ i,\ extremo\ inferior\ del\ intervalo\ a\ ordenar,\n\ @param\ f,\ extremo\ superior\ del\ intervalo\ a\ ordenar.\n\ @return\ T[].\ Array\ resultante\n\ \n\ PRECONDICION\:\ i<\=f\ \n
+comment9.params=v1\ v2
+comment9.target=java.lang.Comparable[]\ merge2(java.lang.Comparable[],\ java.lang.Comparable[])
+comment9.text=\n\ Devuelve\ el\ array\ ordenado\ que\ resulta\ de\ la\ mezcla\ natural\ optimizada\n\ de\ los\ arrays\ v1\ y\ v2.\n\ \n\ @param\ v1.\ Sus\ elementos\ deben\ implementar\ la\ interfaz\ Comparable\n\ @param\ v2.\ Sus\ elementos\ deben\ implementar\ la\ interfaz\ Comparable\ \n\ @return\ T[].\ El\ array\ resultante\n
+numComments=15

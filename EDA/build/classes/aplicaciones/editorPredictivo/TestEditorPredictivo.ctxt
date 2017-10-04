@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TestEditorPredictivo()
+comment0.text=\n\ Constructor\ de\ la\ ventana\ grafica\n
+comment1.params=
+comment1.target=void\ inicializarInterfaz()
+comment1.text=\n\ Inicializacion\ de\ los\ componentes\ de\ la\ interfaz\ grafica\n
+comment2.params=visibleRect\ orientation\ direction
+comment2.target=int\ getScrollableUnitIncrement(java.awt.Rectangle,\ int,\ int)
+comment3.params=e
+comment3.target=void\ mouseClicked(java.awt.event.MouseEvent)
+comment4.params=teclas\ x\ y
+comment4.target=void\ crearTeclas(java.lang.String,\ int,\ int)
+comment4.text=\n\ Creacion\ de\ los\ botones\ del\ teclado\n
+comment5.params=
+comment5.target=void\ seleccionarSugerencia()
+comment5.text=\n\ Evento\ que\ ocurre\ cuando\ el\ usuario\ selecciona\ un\ sucesor\:\n\ completa\ la\ palabra\ actual\ con\ el\ sucesor\ seleccionado\n
+comment6.params=e
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.text=\n\ Gestion\ de\ la\ pulsacion\ de\ los\ botones\ de\ la\ interfaz\n
+comment7.params=e
+comment7.target=void\ caretUpdate(javax.swing.event.CaretEvent)
+comment7.text=\n\ Impide\ el\ movimiento\ del\ cursor\ de\ texto\ (siempre\ queda\ al\ final\ del\ texto)\n
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+comment8.text=\n\ Programa\ principal\n\ @param\ args\ Argumentos\ de\ la\ l\uFFFDnea\ de\ comandos\ (no\ se\ utiliza)\n
+numComments=9

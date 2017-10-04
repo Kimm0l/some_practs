@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=numIguales
+comment0.target=GeneraString(int)
+comment0.text=\n\ Constructor\ de\ objetos\ de\ la\ clase\ GeneraString\n
+comment1.params=
+comment1.target=java.lang.String\ genera()
+comment1.text=\n\ Devuelve\ una\ String\ con\ los\ numIg\ primeros\ caracteres\n\ siempre\ identicos\ (pero\ elegidos\ al\ azar).\n
+numComments=2
